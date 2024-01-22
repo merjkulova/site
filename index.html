@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Полноэкранный скролл! Навигация! Паараллакс!</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="header__menu menu">
+				<a href="" class="menu__link">Hi world</a>
+				<a href="" class="menu__link">О нас</a>
+				<a href="" class="menu__link">Скролл</a>
+				<a href="" class="menu__link">Параллакс</a>
+			</nav>
+		</header>
+		<main class="page">
+			<div class="page__wrapper">
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h1 class="screen__title screen__title_bg" data-swiper-parallax="50%" data-swiper-parallax-opacity="0">Hi world, I love you!</h1>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+							<img src="img/controller.png" alt="pristavka">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							</h2>
+					</div>
+					<div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">
+						<p>Vel sunt sequi hic eaque alias beatae laboriosam ducimus quam eos exercitationem? Aut excepturi</p>
+						<p>voluptas laboriosam inventore quaerat vitae accusamus, quos harum?</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem cumque magnam in ipsa ullam!</p>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="50%">
+							<img src="img/laptop.png" alt="nout">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h1 class="screen__title screen__title_bg">Hi world, I love you!</h1>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image">
+							<img src="img/controller.png" alt="pristavka">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__pagination"></div>
+			<div class="page__scroll"></div>
+		</main>
+	</div>
+
+
+
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
